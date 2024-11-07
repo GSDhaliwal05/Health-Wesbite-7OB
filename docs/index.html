@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Ways</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #ffffff; /* White background */
+            color: #333333; /* Dark text for readability */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #004d00; /* Dark green */
+            padding: 10px 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .nav-links a {
+            color: #ffffff; /* White for contrast */
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #00cd60; /* Lighter green on hover */
+        }
+        .hero {
+            background: #e6ffe6; /* Light green background */
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 50px;
+            color: #00cc44; /* Dark green */
+            margin: 0;
+        }
+        .hero p {
+            font-size: 22px;
+            color: #333333; /* Dark text for readability */
+        }
+        .content-wrapper {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+            background: #f2fff2; /* Very light green */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info-box {
+            background: #ffffff; /* White for the box */
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 480px;
+            border: 1px solid #00cc44; /* Light green border */
+            border-radius: 10px;
+        }
+        h2 {
+            color: #004d00; /* Dark green for headings */
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #333333; /* Dark text for readability */
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .image-placeholder {
+            border: 2px solid #00cc44; /* Light green border */
+            padding: 20px;
+            color: #333333;
+            font-size: 20px;
+            text-align: center;
+            height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 100%;
+        }
+        .image-placeholder img {
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+        }
+        .bottom-bar {
+            background-color: #004d00; /* Dark green */
+            color: #ffffff; /* White text */
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: auto;
+        }
+        .two-boxes {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .content-wrapper .info-box img {
+            max-width: 100%;
+            height: auto;
+        }
+        .two-boxes .info-box:first-child img {
+            width: 80%;
+            max-width: 350px;
+        }
+        .content-wrapper > .info-box:last-child img {
+            width: 80%;
+            max-width: 350px;
+        }
+        .team-section {
+            margin: 20px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            background: #e6ffe6; /* Light green background */
+            border-radius: 1px;
+        }
+        .team-member {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .team-member img {
+            width: 200px;
+            height: 100px;
+            border-radius: 1%;
+            border: 2px solid #00cc44; /* Light green border */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/website2logo.png" alt="Health Website Logo"></a>
+        </div>
+        <div class="nav-links">
+            <a href="Benefits.html">Benefits</a>
+            <a href="UnHealthy.html">What Is Unhealthy</a>
+            <a href="Budgets.html"> Budgets & Costs</a>
+            <a href="Tutoring.html">Affects</a>
+            <a href="Tutoring.html">Cultural Foods</a>
+            <a href="Tutoring.html">Your Choice On Foods</a>
+            <a href="Tutoring.html">How to make healthy foods</a>
+            <a href="Tutoring.html">Extra</a>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Welcome to Healthy Ways</h1>
+        <p>We eat Healthy with multiple Ways</p>
+        <P>What is Healthy Eating?
+            What are some benefits of eating Healthy?
+            What does the Healthy Eating plate look like? Explain each section and why we need it.
+            What will happen if you don’t eat healthy, why is it ?
+            Why do we need micro and macronutrients?
+            What are unhealthy foods? Why are they classified as unhealthy? What impact do these foods have on our bodies?
+            How does Medical, Social, Emotional, Environmental and Cultural factors affect our choice of foods?
+            What are some benefits in planning what you eat?
+            How do you make a meal plan? - Canada’s Food Guide
+            Demonstration of how to make a healthy meal of your choice
+            Budget of costs for items within your meal plan
+            </P>
+    </div>
+    <div class="content-wrapper">
+        <div class="two-boxes">
+            <div class="info-box">
+                <h2>Our Mission</h2>
+                <p>Math Methods aims to make math accessible and enjoyable. We provide resources for mastering essential concepts through visual aids, examples, and interactive learning.</p>
+                <div class="image-placeholder">
+                    <img src="images/Our Mission.png" alt="Visual of Math in Action">
+                </div>
+            </div>
+            <div class="info-box">
+                <h2>Interactive Learning</h2>
+                <p>Explore math concepts with interactive tools and practice exercises that build a deeper understanding and confidence in math.</p>
+                <div class="image-placeholder">
+                    <img src="images/Students Engaging in Math.jpg" alt="Students Engaging in Math">
+                </div>
+            </div>
+        </div>
+        <div class="info-box">
+            <h2>Why Math Matters</h2>
+            <p>Mathematics is more than numbers; it's a tool for problem-solving, critical thinking, and innovation. Learn why math is an essential skill for everyone.</p>
+            <div class="image-placeholder">
+                <img src="images/Why Math Matters.png" alt="Symbolic Math Visuals">
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Team Section -->
+    <div class="team-section">
+        <h2>Our Team</h2>
+        <div class="team-member">
+            <img src="images/Jasraj.png" alt="StoneFoxoo">
+            <p>Jasraj</p>
+        </div>
+        <div class="team-member">
+            <img src="images/Ansh.png" alt="RichTroll">
+            <p>Ansh</p>
+        </div>
+    </div>
+
+    <div class="bottom-bar">
+        <p>&copy; 2024 Healthy Ways. All rights reserved.</p>
+    </div>
+</body>
+</html>
